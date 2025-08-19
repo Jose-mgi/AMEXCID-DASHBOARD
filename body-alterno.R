@@ -2,18 +2,29 @@
 body <- dashboardBody(
   fluidRow(
     tabBox(
-      title = "First tabBox",
+      title = "DIRECCIÓN GENERAL DE EJECUCIÓN DE PROYECTOS ESPECIALES DE COOPERACIÓN INTERNACIONAL (DGEPECI)",
       # The id lets us use input$tabset1 on the server to find the current tab
       id = "tabset1", height = "250px",
       tabPanel("Tab1", "First tab content"),
-      tabPanel("Tab2", "Tab content 2")
+      tabPanel("Tab2", "Tab content 2"),
+      tabPanel("Tab3", "Tab content 3"),
+      tabPanel("Tab4", "Tab content 4"),
+      tabPanel("Tab5", "Tab content 5"),
+      tabPanel("Tab6", "Tab content 6"),
+      tabPanel("Tab7", "Tab content 7"),
+      tabPanel("Tab8", "Tab content 8"),
     ),
     tabBox(
-      side = "right", height = "250px",
-      selected = "Tab3",
-      tabPanel("Tab1", "Tab content 1"),
+      title = "Agencia Mexicana de Cooperación Internacional para el Desarrollo (AMEXCID)",
+      # The id lets us use input$tabset1 on the server to find the current tab
+      id = "tabset1", height = "250px",
+      tabPanel("Tab1", "First tab content"),
       tabPanel("Tab2", "Tab content 2"),
-      tabPanel("Tab3", "Note that when side=right, the tab order is reversed.")
+      tabPanel("Tab3", "Tab content 3"),
+      tabPanel("Tab4", "Tab content 4"),
+      tabPanel("Tab5", "Tab content 5"),
+      tabPanel("Tab6", "Tab content 6"),
+      tabPanel("Tab7", "Tab content 7"),
     )
   ),
   fluidRow(
