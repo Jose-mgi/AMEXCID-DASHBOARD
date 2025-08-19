@@ -28,7 +28,6 @@ install.packages("git")
 # Datos para el mapa mundial
 world_map <- map_data("world")
 
-
 # UI
 library(shiny)
 library(shinydashboard)
@@ -66,12 +65,12 @@ ui <- dashboardPage(
           font-family: 'Noto Sans', sans-serif;
           font-size: 14px;
         }
-        .main-header .logo, .main-header .navbar {
+        .main-header .logo, .main-header .navbar { 
           font-family: 'Noto Sans', sans-serif;
           font-size: 20px;
         }
       "))
-    ),
+    ),   
     
     tabItems(
       tabItem(tabName = "tab1", 
